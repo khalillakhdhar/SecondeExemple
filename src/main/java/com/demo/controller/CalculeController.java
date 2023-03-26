@@ -11,13 +11,13 @@ public class CalculeController {
 	public String somme(@RequestParam int a,@RequestParam int b)
 	{
 		int somme=a+b;
-		return "la somme des deux entier est: "+somme;
+		return "la somme des deux entiers est: "+somme;
 	}
 	@PostMapping("produit")
 	public String produit(@RequestParam int a,@RequestParam int b)
 	{
 		int produit=a*b;
-		return "le produit des deux entier est: "+produit;
+		return "le produit des deux entiers est: "+produit;
 	}
 	
 	
